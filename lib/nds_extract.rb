@@ -11,7 +11,9 @@ def directors_totals(nds)
     total[dir_names] = 0
     mov_index = 0
     
-    while
+    while mov_index < nds[directors_indexr][:movies].length do
+      total[dir_names] += nds[directors_indexr][:movies][mov_index]
+      
   end
 end
 end
