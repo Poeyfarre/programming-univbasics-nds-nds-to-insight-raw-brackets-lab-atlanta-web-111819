@@ -13,7 +13,11 @@ def directors_totals(nds)
     
     while mov_index < nds[directors_index][:movies].length do
       total[dir_names] += nds[directors_index][:movies][mov_index]
-      
+      [:gross]
+      mov_index += 1
   end
+  
+  directors_index += 1
 end
+total
 end
